@@ -1,0 +1,22 @@
+{
+  "monitors": [
+    {
+      "id": "google",
+      "name": "Google",
+      "url": "https://www.google.com",
+      "expectedStatus": 200
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "url": "https://github.com",
+      "expectedStatus": 200
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "url": "https://vercel.com",
+      "expectedStatus": 200
+    }
+  ]
+}
