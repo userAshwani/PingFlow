@@ -130,3 +130,4 @@ export async function pingMonitor(monitor: MonitorConfig): Promise<MonitorResult
     sslExpiresAt,
   };
 }
+

@@ -26,7 +26,7 @@ function resolveOverall(statuses: MonitorStatus[]): MonitorStatus {
 
 // ─── GET /api/status ───────────────────────────────────────────────────────
 
-export async function GET(): Promise<Response> {
+export async function GET() {
   try {
     const config = await loadConfig();
 
