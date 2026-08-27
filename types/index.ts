@@ -30,3 +30,4 @@ export interface StatusResponse {
   monitors: MonitorResult[];
   checkedAt: string;
 }
+
