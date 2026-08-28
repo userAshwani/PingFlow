@@ -75,3 +75,4 @@ export function HeaderBanner({ overall, lastChecked }: HeaderBannerProps) {
     </div>
   );
 }
+

@@ -1,0 +1,23 @@
+services:
+  pingflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pingflow
+    ports:
+      # Access PingFlow at http://localhost:3000
+      - "3000:3000"
+    volumes:
+      # Mount your custom config file here.
+      # Edit pingflow.config.json to add your own URLs, then restart.
+      - ./pingflow.config.json:/app/pingflow.config.json:ro
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/api/status"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+

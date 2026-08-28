@@ -40,3 +40,4 @@ export function SslBadge({ sslValid, sslExpiresAt }: SslBadgeProps) {
     </span>
   );
 }
+

@@ -47,3 +47,4 @@ export function ResponseBars({ history }: ResponseBarsProps) {
     </div>
   );
 }
+

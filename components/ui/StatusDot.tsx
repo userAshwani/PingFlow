@@ -44,3 +44,4 @@ export function StatusDot({ status, size = "md" }: StatusDotProps) {
     </span>
   );
 }
+

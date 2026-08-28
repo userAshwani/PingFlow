@@ -93,3 +93,4 @@ export function MonitorCard({ monitor, history }: MonitorCardProps) {
     </div>
   );
 }
+

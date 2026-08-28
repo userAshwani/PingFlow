@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+npm-debug.log*
+
+# Next.js build output
+.next
+out
+
+# Git
+.git
+.gitignore
+
+# Editor / OS noise
+.DS_Store
+*.local
+.env*
+.vscode
+.idea
+
+# Docker itself
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Docs / CI (not needed at runtime)
+README.md
+*.md
+
